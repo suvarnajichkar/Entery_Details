@@ -18,16 +18,19 @@
   {
    "fieldname": "date",
    "fieldtype": "Date",
+   "in_list_view": 1,
    "label": "Date"
   },
   {
    "fieldname": "time",
    "fieldtype": "Time",
+   "in_list_view": 1,
    "label": "Time"
   },
   {
    "fieldname": "vender",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Vender"
   },
   {
@@ -43,6 +46,7 @@
   {
    "fieldname": "receiver",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Receiver"
   },
   {
@@ -54,7 +58,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-11-10 12:33:58.560080",
+ "modified": "2025-11-15 13:05:12.382980",
  "modified_by": "Administrator",
  "module": "Info App",
  "name": "Get Entery",

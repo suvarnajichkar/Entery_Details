@@ -1,0 +1,94 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"3t9XheSAbx\",\"type\":\"card\",\"data\":{\"card_name\":\"Target\",\"col\":4}},{\"id\":\"1EKzRoF1tY\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Report</b></span>\",\"col\":12}},{\"id\":\"DOCWrAYQCR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Monthly Report\",\"col\":3}},{\"id\":\"Uway2AVrUf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Projectid Report\",\"col\":3}}]",
+ "creation": "2025-12-30 14:11:35.984999",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "solid-success",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Target",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Target",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Months Year",
+   "link_count": 0,
+   "link_to": "Months Year",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Projects",
+   "link_count": 0,
+   "link_to": "Projects",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Monthly Target",
+   "link_count": 0,
+   "link_to": "Monthly Target",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Monthly Achieved",
+   "link_count": 0,
+   "link_to": "Monthly Achieved",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-12-30 14:39:13.863791",
+ "modified_by": "Administrator",
+ "module": "Info App",
+ "name": "Target",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 29.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Projectid Report",
+   "link_to": "Projectid Report",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Monthly Report",
+   "link_to": "Monthly Report",
+   "type": "Report"
+  }
+ ],
+ "title": "Target"
+}

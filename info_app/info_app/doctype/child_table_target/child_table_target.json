@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-12-26 17:41:24.509011",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_id",
+  "project_description",
+  "total_tonnage",
+  "individual_target"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project Id",
+   "options": "Projects"
+  },
+  {
+   "fetch_from": "project_id.total_tonnage",
+   "fieldname": "total_tonnage",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Total Tonnage"
+  },
+  {
+   "fieldname": "individual_target",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Individual Target"
+  },
+  {
+   "fetch_from": "project_id.project_description",
+   "fieldname": "project_description",
+   "fieldtype": "Small Text",
+   "label": "Project Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-12-27 13:19:39.823096",
+ "modified_by": "Administrator",
+ "module": "Info App",
+ "name": "child table target",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

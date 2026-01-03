@@ -1,0 +1,116 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{month_project_id}-{##}",
+ "creation": "2025-12-09 14:12:54.853528",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "monthly_id",
+  "month_project_id",
+  "target_process",
+  "date",
+  "invoice_number",
+  "project_id",
+  "total_month_target",
+  "achived",
+  "attach",
+  "individual_target"
+ ],
+ "fields": [
+  {
+   "fieldname": "monthly_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Monthly Id",
+   "options": "Monthly Target"
+  },
+  {
+   "fieldname": "achived",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Achived"
+  },
+  {
+   "fieldname": "individual_target",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Individual Target"
+  },
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "project Id",
+   "options": "Projects"
+  },
+  {
+   "fetch_from": "monthly_id.total_month_target",
+   "fieldname": "total_month_target",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Total Month Target"
+  },
+  {
+   "fieldname": "target_process",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Target Process",
+   "options": "\nDispatch\nProduct Complete"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "invoice_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Invoice Number"
+  },
+  {
+   "fieldname": "attach",
+   "fieldtype": "Attach",
+   "label": "Attach"
+  },
+  {
+   "fieldname": "month_project_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Month Project Id",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-01-01 17:01:00.387304",
+ "modified_by": "Administrator",
+ "module": "Info App",
+ "name": "Monthly Achieved",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_views": 1
+}

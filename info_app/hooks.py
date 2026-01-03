@@ -242,3 +242,6 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+doctype_js = {
+    "Salary Structure Assignment": "public/js/salary_structure_assignment.js"
+}
